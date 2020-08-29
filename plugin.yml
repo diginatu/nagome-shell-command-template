@@ -1,0 +1,11 @@
+name: shell-command
+description: "A template plugin for running a shell command on a comment recieve event"
+version: "1.0"
+author: diginatu
+method: std
+exec:
+  - '{{path}}/main.sh'
+nagomever: ""
+subscribe:
+  - nagome
+  - nagome_comment
